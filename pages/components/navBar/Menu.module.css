@@ -1,0 +1,99 @@
+.nav {
+  background-color: #121214;
+  height: 100px;
+  position: absolute;
+  min-width: 100vw;
+  top: 0;
+  font-family: "Prompt", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.listItem {
+  display: flex;
+  align-items: center;
+}
+
+.listItem li {
+  transition: 1s;
+  cursor: pointer;
+}
+.listItem li:hover {
+  color: #94183b;
+  border-radius: 10px;
+}
+.menuItem {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  transition: 1s;
+}
+.menuItem:hover {
+  background-color: #040404;
+  border-radius: 10px;
+}
+.subMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  background-color: #121214;
+  left: 0;
+  min-width: 100vw;
+}
+
+.subMenuItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 50%;
+  max-width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+.subMenuItemLink {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: flex-start;
+  color: #ffffff;
+  padding: 10px;
+  border-bottom: 1px solid #474747;
+  transition: 1s;
+}
+
+.subMenuItemLink:hover {
+  color: #ffffff;
+  background-color: #202024;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.subImg {
+  margin-right: 20px;
+}
+
+.memberArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #631129;
+  padding: 10px;
+  margin-right: 10px;
+  transition: 1s;
+  font-weight: bold;
+}
+.memberArea span {
+  margin-left: 10px;
+}
+.memberArea:hover {
+  background-color: #ffffff;
+  color: #121214;
+}
