@@ -1,0 +1,87 @@
+.container {
+  margin-top: 100px;
+  width: 100%;
+  height: 400px;
+  border-top: 1px solid rgb(45, 49, 56);
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+}
+.footer {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer h1 {
+  color: #ccc8c8;
+  font-size: 1.4em;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.cad {
+  background-color: #8234e9;
+}
+
+.fal {
+  background-color: rgb(48, 47, 47);
+}
+
+.mid {
+  display: flex;
+  flex-direction: column;
+}
+.urls {
+  padding: 10px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.urls:hover {
+  text-decoration: underline;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+}
+.fFoter {
+  border-top: 1px solid rgb(45, 49, 56);
+  border-bottom: 1px solid rgb(45, 49, 56);
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoFooter {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.linksSocial {
+  display: flex;
+  align-items: center;
+}
+.buttonFooter {
+  background: rgb(30, 33, 36);
+  background: linear-gradient(77deg, rgb(22, 23, 24) 0%, rgb(11, 12, 12) 100%);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.icon {
+  font-size: 30px;
+  color: #37333d;
+  transition: 1s;
+}
+.icon:hover {
+  color: #64498d;
+}

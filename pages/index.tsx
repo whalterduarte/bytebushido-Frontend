@@ -6,6 +6,7 @@ import About from "./components/about/About";
 import Banner from "./components/banner/Banner";
 import Invite from "./components/invite/Invite";
 import Benefits from "./components/benefits/Benefits";
+import Footer from "./components/footer/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -28,6 +29,9 @@ const Home: NextPage = () => {
       </div>
       <div>
         <Benefits />
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   );
