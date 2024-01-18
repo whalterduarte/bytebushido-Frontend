@@ -31,8 +31,8 @@ const Front = () => {
           quality={100}
           src={"/ninja2.png"}
           alt="Ninja"
-          width={450}
-          height={600}
+          width={500}
+          height={800}
         />
       </div>
     </div>

@@ -1,11 +1,22 @@
 .navBar {
   position: fixed;
   width: 100%;
+  z-index: 1000;
 }
 
 /* O estilo .Front permanece o mesmo */
 .Front {
   height: 100vh;
+  max-height: 900px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.about {
+  max-width: 1440px;
+  margin: auto;
+}
+.banner {
   max-width: 1440px;
   margin: auto;
 }

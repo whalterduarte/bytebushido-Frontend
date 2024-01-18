@@ -1,0 +1,33 @@
+.title {
+  background: linear-gradient(to right, #f3f3f3, #38a6b9);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Chakra Petch", sans-serif;
+  width: 70%;
+  font-size: 4em;
+  margin-left: 20px;
+  flex: 2;
+  width: 80%;
+}
+.paragrafo {
+  font-family: "Chakra Petch", sans-serif;
+  margin-top: -40px;
+  margin-left: 20px;
+  text-align: start;
+  margin-right: 50px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1440px;
+}
+.img {
+  position: absolute;
+  left: 0;
+  z-index: -100;
+  flex: 1;
+  height: 600px;
+  width: 600px;
+}

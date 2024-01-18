@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 200px;
+  background: rgb(42, 171, 134);
+  background: linear-gradient(
+    77deg,
+    rgba(42, 171, 134, 1) 0%,
+    rgba(51, 152, 146, 1) 20%,
+    rgba(58, 138, 155, 1) 39%,
+    rgba(90, 88, 184, 1) 63%,
+    rgba(125, 82, 189, 1) 89%,
+    rgba(167, 74, 194, 1) 100%
+  );
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin: 70px;
+}
+.container h1 {
+  font-family: "Chakra Petch", sans-serif;
+  width: 50%;
+}
+
+.link {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  color: #904ebf;
+}
+
+.link:hover {
+  background-color: #f0ebeb;
+  color: #8e78a0;
+}
