@@ -1,0 +1,78 @@
+.container {
+  height: 100vh;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+}
+.main {
+  margin-top: 100px;
+}
+
+.main h1 {
+  background: linear-gradient(to right, #d7f9ff, #2bdefd);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Chakra Petch", sans-serif;
+  width: 70%;
+  font-size: 4em;
+  margin-left: 20px;
+}
+.main h1 span {
+  margin-left: 50px;
+}
+.main p {
+  font-family: "Chakra Petch", sans-serif;
+  margin: auto;
+  width: 100%;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.photo {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.raio {
+  position: relative;
+  top: 40px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1210px) {
+  .photo {
+    width: 500px;
+  }
+  .main h1 {
+    font-size: 3em;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main h1 {
+    font-size: 2em;
+    width: 85%;
+  }
+  .main h1 span {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main h1 {
+    font-size: 2em;
+    width: 100%;
+    align-items: center;
+  }
+
+  .main p {
+    width: 100%;
+  }
+}

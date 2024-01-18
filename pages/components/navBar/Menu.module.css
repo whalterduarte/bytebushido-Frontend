@@ -1,8 +1,8 @@
 .nav {
-  background-color: #121214;
+  background: #01080e;
   height: 100px;
   position: absolute;
-  min-width: 100vw;
+  min-width: 100%;
   top: 0;
   font-family: "Prompt", sans-serif;
 }
@@ -35,15 +35,20 @@
   border-radius: 10px;
 }
 .subMenu {
+  backdrop-filter: blur(10px);
+  background: linear-gradient(
+    to top,
+    rgba(27, 46, 59, 0.568),
+    rgba(255, 255, 255, 0)
+  );
+
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
   position: absolute;
   z-index: 1;
   top: 100px;
-  background-color: #121214;
   left: 0;
   min-width: 100vw;
 }
@@ -66,7 +71,7 @@
   color: #ffffff;
   padding: 10px;
   border-bottom: 1px solid #474747;
-  transition: 1s;
+  transition: 0.3s;
 }
 
 .subMenuItemLink:hover {
@@ -81,14 +86,16 @@
 }
 
 .memberArea {
+  color: #01080e;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #631129;
+  background-color: #d9fff6;
   padding: 10px;
   margin-right: 10px;
   transition: 1s;
   font-weight: bold;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 85% 100%, 0 100%);
 }
 .memberArea span {
   margin-left: 10px;

@@ -1,0 +1,11 @@
+.navBar {
+  position: fixed;
+  width: 100%;
+}
+
+/* O estilo .Front permanece o mesmo */
+.Front {
+  height: 100vh;
+  max-width: 1440px;
+  margin: auto;
+}
