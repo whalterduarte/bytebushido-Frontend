@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Chakra Petch", sans-serif;
+}
+.gratuito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 790px;
+  cursor: pointer;
+}
+.gratuito h2 {
+  background: rgb(30, 33, 36);
+  background: linear-gradient(
+    77deg,
+    rgba(30, 33, 36, 1) 0%,
+    rgba(26, 39, 56, 1) 100%
+  );
+  width: 800px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  color: green;
+  transition: 1s;
+}
+.gratuito h2:hover {
+  color: #000;
+}
+
+.gratuito p {
+  background-color: black;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: -20px;
+  color: #797979;
+}
+
+.luz {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 30px;
+  z-index: -10;
+  width: 1000px;
+  height: 800px;
+}
+
+.title {
+  display: flex;
+  background: linear-gradient(to right, #fafeff, #9cc6d1);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 3.7em;
+  text-align: start;
+  flex: 2;
+  margin-left: 50px;
+}
+.sequenci {
+  display: flex;
+}
+.sequenci p {
+  font-family: "Chakra Petch", sans-serif;
+  margin-left: 50px;
+  color: #9cc6d1;
+  margin-top: -30px;
+}
+.img {
+  display: flex;
+  flex: 1;
+}
+
+.raios {
+  position: absolute;
+  margin-top: 50px;
+}

@@ -7,7 +7,8 @@
 /* O estilo .Front permanece o mesmo */
 .Front {
   height: 100vh;
-  max-height: 900px;
+  max-height: 1024px;
+  min-height: 900px;
   max-width: 1440px;
   margin: auto;
 }
