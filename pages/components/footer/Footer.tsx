@@ -10,7 +10,11 @@ const Footer = () => {
       <div className={styles.footer}>
         <div className={styles.left}>
           <h1>Comece a estudar</h1>
-          <Link className={`${styles.button} ${styles.cad} `} href={"/"}>
+          <Link
+            className={`${styles.button} ${styles.cad} `}
+            href={`${process.env.FRONT}`}
+            target="_blank"
+          >
             Cadastre-se
           </Link>
           <Link className={`${styles.button} ${styles.fal} `} href={"/"}>

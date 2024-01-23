@@ -9,7 +9,11 @@ const Banner = () => {
         Transforme sua carreira em <br />
         programação na ByteBushido
       </h1>
-      <Link className={styles.link} href={"/"}>
+      <Link
+        className={styles.link}
+        href={`${process.env.FRONT}`}
+        target="_blank"
+      >
         COMECE A ESTUDAR AGORA
       </Link>
     </div>

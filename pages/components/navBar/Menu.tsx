@@ -69,7 +69,11 @@ const Menu = () => {
                 onMouseLeave={handleSubMenuMouseLeave}
               >
                 <li className={styles.subMenuItem} onClick={handleCursoClick}>
-                  <Link className={styles.subMenuItemLink} href={"/"}>
+                  <Link
+                    className={styles.subMenuItemLink}
+                    href={`${process.env.FRONT}`}
+                    target="_blank"
+                  >
                     <Image
                       className={styles.subImg}
                       src={"/icon/java.0622728f.svg"}
@@ -81,7 +85,11 @@ const Menu = () => {
                   </Link>
                 </li>
                 <li className={styles.subMenuItem} onClick={handleCursoClick}>
-                  <Link className={styles.subMenuItemLink} href={"/"}>
+                  <Link
+                    className={styles.subMenuItemLink}
+                    href={`${process.env.FRONT}`}
+                    target="_blank"
+                  >
                     <Image
                       className={styles.subImg}
                       src={"/icon/fullstack.efc91411.svg"}
@@ -93,7 +101,11 @@ const Menu = () => {
                   </Link>
                 </li>
                 <li className={styles.subMenuItem} onClick={handleCursoClick}>
-                  <Link className={styles.subMenuItemLink} href={"/"}>
+                  <Link
+                    className={styles.subMenuItemLink}
+                    href={`${process.env.FRONT}`}
+                    target="_blank"
+                  >
                     <Image
                       className={styles.subImg}
                       src={"/icon/react.b3c5f2f6.svg"}
@@ -106,7 +118,11 @@ const Menu = () => {
                 </li>
 
                 <li className={styles.subMenuItem} onClick={handleCursoClick}>
-                  <Link className={styles.subMenuItemLink} href={"/"}>
+                  <Link
+                    className={styles.subMenuItemLink}
+                    href={`${process.env.FRONT}`}
+                    target="_blank"
+                  >
                     <Image
                       className={styles.subImg}
                       src={"/icon/node.6b4335f1.svg"}
@@ -138,7 +154,11 @@ const Menu = () => {
               onMouseLeave={handleSubMenuMouseLeave}
             >
               <li className={styles.subMenuItem} onClick={handleCursoClick}>
-                <Link className={styles.subMenuItemLink} href={"/"}>
+                <Link
+                  className={styles.subMenuItemLink}
+                  href={`${process.env.FRONT}`}
+                  target="_blank"
+                >
                   <Image
                     className={styles.subImg}
                     src={"/icon/javascript.jpg"}
@@ -151,7 +171,11 @@ const Menu = () => {
               </li>
 
               <li className={styles.subMenuItem} onClick={handleCursoClick}>
-                <Link className={styles.subMenuItemLink} href={"/"}>
+                <Link
+                  className={styles.subMenuItemLink}
+                  href={`${process.env.FRONT}`}
+                  target="_blank"
+                >
                   <Image
                     className={styles.subImg}
                     src={"/icon/typescript.jpg"}
@@ -175,7 +199,11 @@ const Menu = () => {
         </div>
         <div>
           <li>
-            <Link className={styles.memberArea} href={"/login"}>
+            <Link
+              target="_blank"
+              className={styles.memberArea}
+              href={`${process.env.FRONT}`}
+            >
               <CiUser />
               <span>Login</span>
             </Link>
